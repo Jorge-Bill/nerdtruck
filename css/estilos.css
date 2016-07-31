@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.link-invisivel {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+.navbar-inverse {
+    /*    background-color: #3498db;*/
+    background-color:#DF494A;
+   	font-family:Montserrat-Bold;
+   	border-color:  #E3793F;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav .active{
+	background-color: #E3793F;
+}
+
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    color:  #E3793F;
+    letter-spacing: .1em;
+}
+
+p{
+    letter-spacing: .1em;
+    line-height: 1.4em;
+}
+
+.thumb-lanches{
+	border: 0px;
+
+}
+
+.thumb-lanches h2{
+	color: #E3793F;
+}
+
+.thumb-lanches a{
+	color: #DF494A;
+}
+
+#sobre{
+	background: url(../imagens/paralax.png) no-repeat center fixed;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-color: #E3793F;
+}
+
+#sobre h1{
+	color: #fff;
+	letter-spacing: .1em;
+	font-weight: 200;
+}
+
+#sobre h3{
+	color: #fff;
+	letter-spacing: .1em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#sobre p{
+	line-height: 1.7em;
+}
+
+#contato label{
+	
+	color: #4C4C4C;
+	font-family: sans-serif;
+}
+
+#contato input{
+	font-family: sans-serif;
+}
+
+.btn-primary{
+    background-color: #E3793F;
+  /*  border-radius: 15px;*/
+    text-transform: uppercase;
+    border-color:#DF494A;
+    font-family: sans-serif;
+ }
+
+.btn-primary:hover{
+	background-color:#DF494A;
+	border-color: #E3793F;
+}
+
+/* contato fim */
+
+footer{
+	background-color:  #E3793F;
+	height: 10em;
+	clear: both;
+}
